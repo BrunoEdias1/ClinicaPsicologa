@@ -13,7 +13,7 @@ Motivo do contato: *${motivo}*
 Mensagem: ${mensagem || "—"}`;
 
   // Substitua pelo número da psicóloga (com DDI +55 e DDD)
-  const numero = "5598991904552";
+  const numero = "";
   const url = `https://wa.me/${numero}?text=${encodeURIComponent(texto)}`;
 
   window.open(url, "_blank");
